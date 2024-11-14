@@ -1,0 +1,20 @@
+/*NB: per il componente ListGroup.Item la classe CSS che viene effettivamente applicata all'elemento HTML è list-group-item,
+quindi se voglio sovrascriverne lo stile in un css devo usare questo nome */
+
+.list-group-item {
+  border: 3px solid blue;
+  padding: 10px;
+}
+
+.comment-text {
+  /*spezza parole molto lunghe e le manda a capo */
+  word-wrap: break-word;
+
+  /*mantiene tutti gli spazi consecutivi digitati dall'utente altrimenti una sequenza di n spazi consecutivi viene salvata come
+     1 singolo spazio */
+  white-space: pre-wrap;
+}
+
+.single-comment {
+  background-color: #e4f8fb;
+}

@@ -1,0 +1,8 @@
+.not-found {
+    /*altezza minima = tutto lo schermo */
+    min-height: 100vh;
+}
+
+.dark-theme-colors {
+    background-color: #7d848a;
+}

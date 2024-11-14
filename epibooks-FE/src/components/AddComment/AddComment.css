@@ -1,0 +1,14 @@
+#form {
+    border: 3px solid green;
+    border-radius: 5%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+}
+
+.add-comment-form {
+    background-color: #d7fce0;
+
+}

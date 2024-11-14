@@ -1,0 +1,9 @@
+/*  NB: se uso il generico tag "img" si ridimensionano a 50px di height anche tutte le cover dei libri nella pagina, nonostante importi
+questo .css solo nel componente Logo, quindi gli dò una classe specifica "logo" per isolare l'elemento su cui agire. */
+
+.logo {
+    width: 100%;
+    max-height: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
